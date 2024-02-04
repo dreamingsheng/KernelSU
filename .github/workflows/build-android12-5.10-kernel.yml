@@ -1,0 +1,14 @@
+name: Build android12-5.10-kernel
+on:
+  workflow_dispatch:
+
+jobs:
+  build-debug-kernel-a12:
+    uses: ./.github/workflows/gki-kernel.yml
+    with:
+      version: android12-5.10
+      version_name: android12-5.10.a
+      tag: android12-5.10-2024-02
+      os_patch_level: 2024-02
+      patch_path: "5.10"
+      debug: false
