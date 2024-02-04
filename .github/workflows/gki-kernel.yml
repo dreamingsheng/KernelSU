@@ -8,26 +8,26 @@ on:
         type: string
         description: >
           Output directory of gki,
-          for example: android12-5.10
+          for example: android12-5.a
       version_name:
         required: true
         type: string
         description: >
           With SUBLEVEL of kernel,
-          for example: android12-5.10.66
+          for example: android12-5.10.a
       tag:
         required: true
         type: string
         description: >
           Part of branch name of common kernel manifest,
-          for example: android12-5.10-2021-11
+          for example: android12-5.10-2023-04_r1
       os_patch_level:
         required: false
         type: string
         description: >
           Patch level of common kernel manifest,
-          for example: 2021-11
-        default: 2022-05
+          for example: 2024-02
+        default: 2024-02
       patch_path:
         required: true
         type: string
