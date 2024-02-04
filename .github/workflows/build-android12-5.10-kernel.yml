@@ -8,7 +8,7 @@ jobs:
     with:
       version: android12-5.10
       version_name: android12-5.10.a
-      tag: common-android12-5.10
+      tag: common-android12-5.10-2024-01
       os_patch_level: 2024-02
       patch_path: "5.10"
       debug: false
